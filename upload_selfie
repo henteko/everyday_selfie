@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/local/bin/imagesnap -q -w 3 /tmp/everyday_selfie.jpg
+curl https://upload.gyazo.com/api/upload  \
+  -F "access_token=YOUR_ACCESS_TOKEN" \
+  -F "imagedata=@/tmp/everyday_selfie.jpg"
