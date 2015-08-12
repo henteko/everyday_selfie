@@ -1,9 +1,10 @@
 # Everyday Selfie
 毎日自撮りして自己管理
-lunchdで自動起動してます
 
-upload_selfie内のYOUR_ACCESS_TOKENは自分のGyazoのaccess_tokenを入れてください
-everyday_selfie.plist内もいい感じに編集してください
+lunchdで自動起動してます  
+
+upload_selfie内のYOUR_ACCESS_TOKENは自分のGyazoのaccess_tokenを入れてください  
+everyday_selfie.plist内もいい感じに編集してください  
 
 # Install
 
