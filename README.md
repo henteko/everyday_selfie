@@ -15,6 +15,6 @@ $ cd everyday_selfie/
 $ brew install imagesnap
 $ vim upload_selfie # Edit the YOUR_ACCESS_TOKEN(Gyazo)
 $ vim everyday_selfie.plist # Edit the /path/to/everyday_selfie
-$ mv everyday_selfie.plist ~/Library/LaunchAgents/everyday_selfie.plist
+$ cp everyday_selfie.plist ~/Library/LaunchAgents/everyday_selfie.plist
 $ launchctl load ~/Library/LaunchAgents/everyday_selfie.plist
 ```
