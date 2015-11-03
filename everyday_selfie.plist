@@ -6,7 +6,7 @@
     <string>everyday_selfie</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/path/to/everyday_selfie/upload_selfie</string>
+      <string>/path/to/everyday_selfie/selfie</string>
     </array>
     <key>StandardOutPath</key>
     <string>/tmp/everyday_selfie-output.txt</string>

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+filename=`date +"%Y%m%d%I%M%S"`
+mkdir -p /tmp/selfie/
+`/usr/local/bin/imagesnap -q -w 3 /tmp/selfie/$filename.jpg`
+count=`face_counter /tmp/selfie/$filename.jpg`
+if [ $count -ge 1 ]; then
+  `cp /tmp/selfie/$filename.jpg /path/to/google_photos/`
+fi
