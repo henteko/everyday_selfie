@@ -1,10 +1,7 @@
 # Everyday Selfie
-毎日自撮りして自己管理
+毎日自撮りしてgoogle photosで自己管理
 
 lunchdで自動起動してます  
-
-upload_selfie内のYOUR_ACCESS_TOKENは自分のGyazoのaccess_tokenを入れてください  
-everyday_selfie.plist内もいい感じに編集してください  
 
 # Install
 
@@ -13,7 +10,7 @@ everyday_selfie require [imagesnap](https://github.com/rharder/imagesnap).
 $ git clone git@github.com:henteko/everyday_selfie.git
 $ cd everyday_selfie/
 $ brew install imagesnap
-$ vim upload_selfie # Edit the YOUR_ACCESS_TOKEN(Gyazo)
+$ vim selfie # Edit the /path/to
 $ vim everyday_selfie.plist # Edit the /path/to/everyday_selfie
 $ cp everyday_selfie.plist ~/Library/LaunchAgents/everyday_selfie.plist
 $ launchctl load ~/Library/LaunchAgents/everyday_selfie.plist
